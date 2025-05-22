@@ -1,0 +1,18 @@
+{
+  "name": "ice-cream-project",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://jaisuryacodes.github.io/ice-cream-project",
+  "dependencies": {
+    // ...your dependencies
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+  // ...rest of your package.json
+}
